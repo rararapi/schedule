@@ -2,8 +2,7 @@ name: Sample
 
 on:
   schedule:
-    - cron: '* * * * *'
-  workflow_dispatch:
+    - cron: '* 4 * * *'
 
 jobs:
   numpy-test:
