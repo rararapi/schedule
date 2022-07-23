@@ -2,7 +2,7 @@ name: Sample
 
 on:
   schedule:
-    - cron: '* 4 * * *'
+    - cron: '*/10 * * * *'
 
 jobs:
   numpy-test:
